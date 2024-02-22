@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-obex
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0043-tenant/tkrw-pr712-0075-0043-app/devfile-sample-obex@sha256:b3f890f2145bfcc59ed18611708c62ba7d3e81638521214ef65ed58ccc826c99
         name: my-nodejs
         ports:
         - containerPort: 3001
